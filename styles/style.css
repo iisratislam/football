@@ -127,6 +127,28 @@ figure figcaption {
 .player p {
    color: #6c6c6c;
 }
+hr{
+   border: 1px solid crimson;
+}
+
+/* extrapart */
+table, th, td {
+   border: 1px solid black;
+ }
+ table {
+   border-collapse: collapse;
+   
+    border-spacing: 5px;
+    width: 100%;
+ }
+ td {
+   text-align: center;
+ }
+ th {
+   height: 70px;
+ }
+ /* extrapartcssend */
+
 
 /*---- footer----*/
 
@@ -174,6 +196,9 @@ footer p {
    font-size: 18px;
    margin-bottom: 64px;
 }
+
+/* mediaquery */
+
 /* mobileview */
 @media only screen and (max-width: 688px) {
   
